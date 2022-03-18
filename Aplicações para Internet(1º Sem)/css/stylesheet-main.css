@@ -1,0 +1,89 @@
+  #inicio{
+    background-color: #037F8C;
+    
+  }
+  .nav-item {
+    margin: 5px 25px;
+  }
+
+  .d-flex {
+    margin-right: 20px;
+  }
+
+  #navbarSupportedContent{
+    background-color: #084F8C;
+  }
+
+  #carrossel{
+    height: 550px !important;     
+  }
+
+  #resumo {
+    font-size: 20px;
+  }
+
+  #imgind2{
+
+    padding-bottom: 30px;
+  }
+
+  .card-text{
+    font-size: 18px;
+    color: #000;
+    
+  }
+
+  .card-title {
+    font-size: 33px;
+  }
+
+  figcaption {
+    text-align: center;
+    padding-left: 30px;
+    margin-left: 20px;
+  }
+  
+  #edward {
+    height: 300px;
+    padding-left: 100px;
+  }
+
+  #ampinsulina {
+    padding-left: 40px;
+  }
+
+  #medioral {
+    padding-left: 60px;
+  }
+
+  #pesquisadiabetes {
+    width: 500px;
+  }
+
+  .card-header {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .fs-2 {
+    font-weight: 500;
+  }
+
+  .link-info {
+    font-size: 20px;
+  }
+
+  .img-thumbnail {
+    max-width: 350px;
+   
+  }
+
+  .nutri {
+    max-width: 420px;
+    
+  }
+
+  .footer {
+    text-align: center;
+    color: whitesmoke;
+  }
