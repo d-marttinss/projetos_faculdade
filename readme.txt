@@ -1,1 +1,1 @@
-Repositório feito para inclusão de projetos realizados durante as aulas, ou tarefas encaminhadas para serem feitas em casa.
+Repository made to include projects carried out during classes, or tasks sent to be done at home.
