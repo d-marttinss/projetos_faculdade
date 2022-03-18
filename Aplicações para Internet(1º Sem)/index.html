@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/stylesheet-main.css" rel="stylesheet">
+
+    <title>Diabetes</title>
+  </head>
+  <body id=inicio>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-sm-0 mx-5">
+            <li class="nav-item px-2">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link active" aria-current="page" href="sobre.html">Historia</a>
+            </li>
+            <li class="nav-item dropdown px-2">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tipos de Diabetes
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="diabetes_1.html">Diabetes tipo 1</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="diabetes_2.html">Diabetes tipo 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown px-2">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tratamento
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="tratamento_tipo_1.html">Tratamento para Diabetes tipo 1</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="tratamento_tipo_2.html">Tratamento para Diabetes tipo 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link active" aria-current="page" href="nutricao.html">Nutrição</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link active" aria-current="page" href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div id=carrossel class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/carrossel1.jpg" class="d-block w-100" alt="Letreiro diabetes" height="540px">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/carrossel2.jpg" class="d-block w-100" alt="campanha de diabetes" height="540px">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/carrossel3.jpg" class="d-block w-100" alt="exame diabetes" height="540px">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-7">
+            <img src="./images/diabetes.jpg" alt="diabetes">
+          </div>
+          <div class="col-md-5">
+            <div class="card-body">
+              <h5 class="card-title">Diabetes</h5>
+              <p class="card-text" id=resumo>Diabetes Mellitus (DM) é uma síndrome metabólica de origem múltipla, 
+                decorrente da falta de insulina e/ou da incapacidade de a insulina exercer adequadamente 
+                seus efeitos. A insulina é produzida pelo pâncreas e é responsável pela manutenção do 
+                metabolismo da glicose e a falta desse hormônio provoca déficit na metabolização da glicose e, 
+                conseqüentemente, diabetes. Caracteriza-se por altas taxas de açúcar no sangue (hiperglicemia) 
+                de forma permanente.</p> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="./images/diabetes1.jpg" class="card-img-top" alt="..." height="340px">
+            <div class="card-body">
+              <h5 class="card-title">Diabetes Tipo 1</h5>
+              <p class="card-text">A diabetes tipo 1, ou diabetes mellitus tipo 1, 
+                    é uma doença relacionada à falta de produção de insulina pelo organismo ou 
+                    à produção insuficiente. A insulina é um hormônio produzido pelas células beta, 
+                    das ilhotas de Langerhans, do pâncreas. Esse hormônio possui a função de levar a 
+                    glicose presente na corrente sanguínea, produzida pelo processo digestivo, para os 
+                    músculos esqueléticos, fígado e para as células do tecido adiposo (tecido gorduroso).</p>
+                    <a class="btn btn-primary" href="diabetes_1.html" role="button">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/diabetes2.jpg" class="card-img-top" alt="..." height="340px">
+            <div class="card-body">
+              <h5 class="card-title">Diabetes Tipo 2</h5>
+              <p class="card-text">O diabetes do tipo 2 é a forma mais comum da doença e acredita-se que a 
+                    sua causa seja uma produção insuficiente de insulina ou uma incapacidade do organismo de 
+                    usá-la da forma correta. É comum vermos portadores de diabetes tipo 2 obesos, 
+                    com idade acima de 35 ou 40 anos, sedentários e com histórico na família. Crianças e 
+                    adolescentes que estão acima do peso também podem apresentar esse tipo de diabetes.</p><br>
+                    <a class="btn btn-primary" href="diabetes_2.html" role="button">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/medtip1.jpg" class="card-img-top" alt="..." height="340px">
+            <div class="card-body">
+              <h5 class="card-title">Tratamento Para Diabetes Tipo 1</h5>
+              <p class="card-text">O tratamento de diabetes tipo 1 correto envolve manter uma 
+                    saudável e o controle da glicemia, a fim de evitar possíveis complicações da doença.
+                    Para saber mais, clique no botão logo abaixo.</p>
+                    <a class="btn btn-primary" href="tratamento_tipo_1.html" role="button">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/medtip2.jpg" class="card-img-top" alt="..." height="340px">
+            <div class="card-body">
+              <h5 class="card-title">Tratamento Para Diabetes Tipo 2</h5>
+              <p class="card-text">O tratamento do diabetes tipo 2 visa baixar os níveis de glicose no sangue
+                    do paciente e cuidar para que ele não sofra nenhum tipo de complicação.
+                    Para saber mais, clique no botão logo abaixo.</p>
+                    <a class="btn btn-primary" href="tratamento_tipo_2.html" role="button">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+
+  <footer>
+    <div class="container mt-3">
+      <p class="footer">&copy;Todos os Direitos Reservados a Doriel Martins</p>
+    </div>
+  </footer>
+</html>

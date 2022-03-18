@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/stylesheet-main.css" rel="stylesheet">
+
+    <title>Contato - Diabetes</title>
+  </head>
+  <body id=inicio>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-sm-0 mx-5">
+            <li class="nav-item px-2">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link active" aria-current="page" href="sobre.html">Historia</a>
+            </li>
+            <li class="nav-item dropdown px-2">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tipos de Diabetes
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="diabetes_1.html">Diabetes tipo 1</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="diabetes_2.html">Diabetes tipo 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown px-2">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tratamento
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="tratamento_tipo_1.html">Tratamento para Diabetes tipo 1</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="tratamento_tipo_2.html">Tratamento para Diabetes tipo 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link active" aria-current="page" href="nutricao.html">Nutrição</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link active" aria-current="page" href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="card border-danger mb-3">
+        <div class="card-body text-danger">
+          <div class="card-body">
+            <h5 class="card-title mb-4">MANDE AQUI AS SUAS DÚVIDAS OU QUESTIONAMENTOS</h5>
+          </div>
+        </div>
+
+        <form>
+          <div class="row mx-3 mb-3">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Nome" aria-label="Nome">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Sobrenome" aria-label="Sobrenome">
+            </div>
+          </div>
+          <div class="row mx-3 mb-3">
+            <label for="colFormLabel" class="col-sm-2 col-form-label">Email:</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="colFormLabel" placeholder="diabetes@diabetes.com.br">
+            </div>
+          </div>
+          <div class="form-floating mb-3 mx-3">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 250px"></textarea>
+            <label for="floatingTextarea2">Dúvida ou Questionamento</label>
+          </div>
+          <button type="submit" class="btn btn-danger mb-3 mx-3">Enviar</button>
+        </div>
+        </form>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+
+  <footer>
+    <div class="container">
+      <p class="footer">&copy;Todos os Direitos Reservados a Doriel Martins</p>
+    </div>
+  </footer>
+</html>
