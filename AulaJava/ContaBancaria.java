@@ -1,27 +1,27 @@
 
 public class ContaBancaria {
-	 String nome;
+	 String nomeConta;
 	 int numeroConta;
-	 float saldo;
+	 float saldoConta;
 	
 	public void sacar (float vlrSaque) {
-		this.saldo -= vlrSaque;
+		this.saldoConta -= vlrSaque;
 	}
 	
 	public void deposito (float vlrDeposito) {
-		this.saldo -= vlrDeposito;
+		this.saldoConta += vlrDeposito;
 	}
 	
 	public float consultarSaldo () {
-		return this.saldo;
+		return this.saldoConta;
 	}
 	
 	public String consultarNome () {
-		return this.nome;
+		return this.nomeConta;
 	}
 	
 	public void trocarNome (String novoNome) {
-		this.nome = novoNome;
+		this.nomeConta = novoNome;
 	}
 	
 }
